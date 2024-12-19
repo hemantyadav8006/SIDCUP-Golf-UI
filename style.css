@@ -34,6 +34,7 @@ body {
   position: fixed;
   filter: blur(60px);
   z-index: 9;
+  transition: all 0.5 ease;
 }
 
 #nav {
@@ -137,7 +138,7 @@ video {
 }
 
 #page2 {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   z-index: 10;
 }
@@ -158,14 +159,15 @@ video {
   display: inline-block;
   white-space: nowrap;
   animation-name: scroll;
-  animation-duration: 40s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 #scroller h4 {
   display: inline-block;
-  font-size: 120px;
+  text-transform: uppercase;
+  font-size: 80px;
   font-weight: 900;
   margin-right: 20px;
   transition: all linear 0.3s;
@@ -183,6 +185,6 @@ video {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }

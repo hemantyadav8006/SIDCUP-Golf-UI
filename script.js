@@ -2,12 +2,22 @@ var cursorDot = document.querySelector("#cursor-dot");
 var cursorBlur = document.querySelector("#cursor-blur");
 
 document.addEventListener("mousemove", function (e) {
-  cursorDot.style.left = e.x + 5 + "px";
-  cursorDot.style.top = e.y + 5 + "px";
-  cursorBlur.style.left = e.x - 150 + "px";
-  cursorBlur.style.top = e.y - 150 + "px";
+  cursorDot.style.left = e.x - 10 + "px";
+  cursorDot.style.top = e.y - 10 + "px";
+  cursorDot.style.transitionProperty = all;
+  cursorDot.style.transitionDuration = 0.4;
+  cursorDot.style.transitionBehavior = easeInOut;
+  cursorDot.style.transitionDelay = 0.3;
 });
 
+document.addEventListener("mousemove", function (e) {
+  cursorBlur.style.left = e.x - 150 + "px";
+  cursorBlur.style.top = e.y - 150 + "px";
+  cursorBlur.style.transitionProperty = all;
+  cursorBlur.style.transitionDuration = 0.4;
+  cursorBlur.style.transitionBehavior = easeInOut;
+  cursorBlur.style.transitionDelay = 0.4;
+});
 gsap.to("#nav", {
   backgroundColor: "#000",
   duration: 0.5,
