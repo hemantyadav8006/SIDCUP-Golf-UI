@@ -22,6 +22,4 @@ npm install
 npm run dev
 ```
 
-## Website URL
-
-- [URL](https://hemantyadav8006.github.io/SIDCUP-Golf-UI/)
+## [Website URL](https://hemantyadav8006.github.io/SIDCUP-Golf-UI/)
