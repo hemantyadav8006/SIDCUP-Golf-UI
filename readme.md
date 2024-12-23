@@ -6,23 +6,23 @@
 
 ## Technologies Used
 
-# HTML
+### HTML
 
 - Structure and content of the webpage.
 
-# CSS
+### CSS
 
 - Styling and layout of the webpage.
 
-# JavaScript
+### JavaScript
 
 - For logic handling
 
-# GSAP (GreenSock Animation Platform):
+### GSAP (GreenSock Animation Platform):
 
 - Smooth scroll animations and interactive effects.
 
-# RemixIcon:
+### RemixIcon:
 
 - Iconography for social media and other UI elements
 
