@@ -17,6 +17,19 @@ body {
   width: 100%;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #000;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #95c11e;
+  border-radius: 50px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 #cursor-dot {
   height: 20px;
   width: 20px;
